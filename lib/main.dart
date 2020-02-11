@@ -11,11 +11,7 @@ void main() {
           backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
-          child: Image(
-            image: NetworkImage(
-              'https://www.astrostones.com/wp-content/uploads/2016/12/Ruby-Gem.png',
-            ),
-          ),
+          child: Image(image: AssetImage('images/diamond.png')),
         ),
       ),
     ),
